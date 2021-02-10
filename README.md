@@ -18,7 +18,7 @@ Writes 1234 _bytes_ to a file named out.dat
 But then, it can also be used as a _library_, having a simple API:
 
 ```rust
-use dummy_gen{write, Result};
+use dummy_gen::{write, Result};
 
 fn main() -> Reuslt<()> {
    write(output_file_name, output_file_size)?;
